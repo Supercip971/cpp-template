@@ -28,6 +28,7 @@ LDFLAGS=$(SANITIZERS)
 # some people likes to use sources/source instead of src
 PROJECT_NAME = test
 BUILD_DIR = build
+# you may want to update compile_flags.txt after changing this value
 SRC_DIR = src
 
 # avoid using '**' because in some cases it may not work
